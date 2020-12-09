@@ -53,10 +53,12 @@ description.on('click', function (event){
 saveBtn.on('click', function(event) {
     
     console.log(event.target)
+    localStorage.setItem('items', input.val())
+    
     
 })
 
-
+console.log(input.val())
 //Insert current day into p id tag
 
  
@@ -64,7 +66,6 @@ saveBtn.on('click', function(event) {
 //console.log(month)
 //console.log(day)
 //console.log(hour)
-
 
 
 //Get current date
