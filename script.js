@@ -13,6 +13,7 @@ var times = $('.times')
 
 
 //for loop to change class
+//if statement on selecting current hour block
 
 console.log(hour)
 for (let i = 0; i < hours.length; i++) {
@@ -75,6 +76,5 @@ function dateGetter () {
 
 dateGetter()
 
-//if statement on selecting current hour block
 
 
